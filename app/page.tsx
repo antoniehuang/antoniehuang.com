@@ -7,7 +7,7 @@ export default function Page() {
         About Me
       </h1>
       <p className="mb-4">
-        {`I am software engineer with experience building and maintaining backend infrastructures, 
+        {`I am software engineer with experience building and maintaining backend services, 
         colleague facing tools and data pipelines. Demonstrated success working in agile teams delivering products to production. 
         My interest and expertise lies in utilising cloud infrastructure and applying software architecture best practices to deliver robust and maintainable software`}
       </p>
