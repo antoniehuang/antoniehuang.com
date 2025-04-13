@@ -1,20 +1,20 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const navItems = {
-  '/': {
-    name: 'home',
+  "/": {
+    name: "home",
   },
-  '/blog': {
-    name: 'blog',
+  "/blog": {
+    name: "blog",
   },
-  'cv': {
-    name: 'cv',
+  cv: {
+    name: "cv",
   },
-}
+};
 
 export function Navbar() {
   return (
-    <aside className="-ml-[8px] mb-16 tracking-tight">
+    <aside className="flex items-center mb-16 tracking-tight">
       <div className="lg:sticky lg:top-20">
         <nav
           className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
@@ -30,11 +30,12 @@ export function Navbar() {
                 >
                   {name}
                 </Link>
-              )
+              );
             })}
           </div>
         </nav>
       </div>
+      <h1 className="text-3xl font-semibold font-[Caveat]">Antonie Huang</h1>
     </aside>
-  )
+  );
 }
