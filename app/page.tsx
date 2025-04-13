@@ -1,11 +1,9 @@
-import { BlogPosts } from 'app/components/posts'
+import { BlogPosts } from "app/components/posts";
 
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        About Me
-      </h1>
+      <h1 className="mb-2 text-xl font-semibold tracking-tighter">About Me</h1>
       <p className="mb-4">
         {`I am software engineer with experience building and maintaining backend services, 
         colleague facing tools and data pipelines. Demonstrated success working in agile teams delivering products to production. 
@@ -15,5 +13,5 @@ export default function Page() {
         <BlogPosts />
       </div>
     </section>
-  )
+  );
 }
