@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat");
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Mulish&family=Quicksand&family=Work+Sans&display=swap');
 @import "tailwindcss";
 
 ::selection {
@@ -16,6 +16,7 @@
   --sh-jsxliterals: #6266d1;
   --sh-property: #e25a1c;
   --sh-entity: #e25a1c;
+  --font-primary: 'Mulish', sans-serif; 
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,6 +33,7 @@
 
 html {
   min-width: 360px;
+  font-family: var(--font-primary);
 }
 
 .prose .anchor {
