@@ -121,7 +121,7 @@ html {
 .prose > :first-child {
   /* Override removing top margin, causing layout shift */
   margin-top: 1.25em !important;
-  margin-bottom: 1.25em !important;
+  /* margin-bottom: 1.25em !important; */
 }
 
 pre::-webkit-scrollbar {
@@ -150,4 +150,11 @@ table {
 
 .title {
   text-wrap: balance;
+}
+
+blockquote {
+  font-style: italic;
+  color: #6b7280;
+  border-left: 4px solid #d1d5db;
+  padding-left: 1rem;
 }
