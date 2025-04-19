@@ -68,7 +68,7 @@ html {
 }
 
 .prose code {
-  @apply px-1 py-0.5 rounded-lg;
+  @apply px-1 py-0.5 rounded-lg text-sm;
 }
 
 .prose pre code {
@@ -87,23 +87,23 @@ html {
 }
 
 .prose p {
-  @apply my-4 text-neutral-800 dark:text-neutral-200;
+  @apply my-4 text-neutral-800 dark:text-neutral-200 text-base;
 }
 
 .prose h1 {
-  @apply text-4xl font-medium tracking-tight mt-6 mb-2;
+  @apply text-4xl font-light tracking-tight mt-4 mb-1;
 }
 
 .prose h2 {
-  @apply text-xl font-medium tracking-tight mt-6 mb-2;
+  @apply text-2xl font-bold tracking-tight mt-4 mb-1;
 }
 
 .prose h3 {
-  @apply text-xl font-medium tracking-tight mt-6 mb-2;
+  @apply text-lg font-bold tracking-tight mt-4 mb-1;
 }
 
 .prose h4 {
-  @apply text-lg font-medium tracking-tight mt-6 mb-2;
+  @apply text-lg font-bold tracking-tight mt-4 mb-1;
 }
 
 .prose strong {
@@ -111,11 +111,11 @@ html {
 }
 
 .prose ul {
-  @apply list-disc pl-6;
+  @apply list-disc pl-6 text-base;
 }
 
 .prose ol {
-  @apply list-decimal pl-6;
+  @apply list-decimal pl-6 text-base;
 }
 
 .prose > :first-child {
