@@ -7,7 +7,7 @@
 }
 
 :root {
-  --sh-class: #2d5e9d;
+  --sh-class: #d63384;
   --sh-identifier: #354150;
   --sh-sign: #8996a3;
   --sh-string: #007f7a;
@@ -21,7 +21,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --sh-class: #4c97f8;
+    --sh-class: #f598d6;
     --sh-identifier: white;
     --sh-keyword: #f47067;
     --sh-string: #0fa295;
